@@ -1,7 +1,7 @@
 Project Setup crate new MAUi project 
-Implementation add Nuget Plugin.LocalNotification resposnible for local notification
+Implementation add Nuget **Plugin.LocalNotification** resposnible for local notification
 add in MAUIProgram.cs as middle ware below line
-.UseLocalNotification()
+**.UseLocalNotification()**
 in button click events add below code
 private void OnCounterClicked(object sender, EventArgs e)
 	{
